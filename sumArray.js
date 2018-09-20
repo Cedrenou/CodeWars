@@ -20,5 +20,5 @@ function sumArray(array) {
         }
         return result - min - max;
 }
-
-console.log(sumArray([6, 2, 1, 8, 10]), 16);
+}
+console.log(sumArray([6, 2, 1, 8, 10]), 16)
