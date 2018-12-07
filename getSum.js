@@ -4,6 +4,7 @@ function GetSum( a,b )
 {
     if (a < b || a > b)
         return a + b;
-    if (a == b)
+    if (a == b) {
         return a;
+    }
 }

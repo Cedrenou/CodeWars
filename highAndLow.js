@@ -1,23 +1,23 @@
-function highAndLow(numbers){
+// https://www.codewars.com/kata/highest-and-lowest/train/javascript
+// Highest and Lowest
+
+
+function highAndLow(numbers) {
     // ...
-    let numbersList = numbers.split.parseInt(' ')
-    console.log(numbersList)
+    let arrNum = numbers.split(' ').map(x => parseInt(x))
     
-    let high = numbersList[0]
-    let low = numbersList[0]
-
-    for (let i = 1; i < numbersList.length; i++){
-        if (numbersList[i] > high){
-            high = numbersList[i]
+    let high = arrNum[0]
+    let low = arrNum[0]
+    
+    for (let i = 1; i < arrNum.length; i++){
+        if (arrNum[i] > high) {
+            high = arrNum[i]
+        } else if (arrNum[i] < low) {
+            low = arrNum[i]
         }
-        if (numbersList[i] < low){
-            low = numbersList[i]
-        }
-    }
+    } 
+    return `${high} ${low}`
+}
 
-    return high + ' ' + low
-  }
 
-  
-  highAndLow('1 2 3 4')
-  
+highAndLow("1 2 3 4 5")
