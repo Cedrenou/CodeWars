@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c36b7dd-1a6c-47a7-bf44-d251b43e63bd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/descendingOrder.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortestWord.js" beforeDir="false" afterPath="$PROJECT_DIR$/shortestWord.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sortNum.js" beforeDir="false" afterPath="$PROJECT_DIR$/findShort.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,11 +17,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="shortestWord.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="shortestWord.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shortestWord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="390">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="descendingOrder.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/descendingOrder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -59,6 +70,7 @@
         <option value="$PROJECT_DIR$/gps.js" />
         <option value="$PROJECT_DIR$/helpZoom.js" />
         <option value="$PROJECT_DIR$/shortestWord.js" />
+        <option value="$PROJECT_DIR$/descendingOrder.js" />
       </list>
     </option>
   </component>
@@ -177,25 +189,25 @@
       <workItem from="1544202787813" duration="2112000" />
       <workItem from="1544435708953" duration="3737000" />
       <workItem from="1544442044022" duration="78000" />
-      <workItem from="1544454811877" duration="2085000" />
+      <workItem from="1544454811877" duration="5311000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20366000" />
+    <option name="totallyTimeSpent" value="23592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-96" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14112692" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14112692" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.40363637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4630303" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.46268657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -277,13 +289,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getMiddle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nbYear.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -511,8 +516,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shortestWord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="390">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descendingOrder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
