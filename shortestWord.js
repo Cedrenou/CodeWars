@@ -1,11 +1,27 @@
-function findShort(s){
+// https://www.codewars.com/kata/shortest-word/train/javascript
+// Shortest Word
 
-    for(let i = 0; i < s.length; i++){
+function findShort(s) {
 
+    let strArr = s.split(' ');
+    let strLen = [];
+
+    console.log(strArr);
+    for (let i = 0; i < strArr.length; i++) {
+        strLen.push(strArr[i].length)
     }
+
+    strLen.sort((a, b) => a - b);
+
+    return strLen[0]
 }
 
-console.log(findShort("bitcoin take over the world maybe who knows perhaps"), 3);
+findShort('i want to travel the world writing code one day');
 
+// Refactor Version
 
-
+function findShortest(s) {
+    let words = [];
+    s.split(' ').map(word => words.push(word.length));
+    return Math.min(...words)
+}
