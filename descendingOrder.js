@@ -2,7 +2,7 @@
 // Descending Order
 
 function descendingOrder(n) {
-    let arr = []
+    let arr = [];
     arr.push(n.toString().split('').sort((a, b) => b - a).join(''));
     return parseInt(arr[0])
 }
