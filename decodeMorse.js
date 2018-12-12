@@ -7,4 +7,3 @@ function decodeMorse(morseCode) {
     //your code here
     return morseCode.trim().split('   ').map(word => word.split(' ').map(letter => MORSE_CODE[letter]).join('')).join(' ')
 }
-
