@@ -2,15 +2,14 @@
 // Persistent Bugger
 
 function persistence(num) {
-    //code me
-    let strNum = num.toString()
-    let splitNum = strNum.split('')
+    let strNum = num.toString().split('')
+    let count = 0
+    let newStrNum
 
-    for (let i = 0; i < splitNum.length; i++) {
-        let result = splitNum[i] * splitNum[i + 1]
-        return result
+    while (strNum.length > 1) {
+        newStrNum = strNum.reduce((accumulator, currentValue) => accumulator * currentValue)
+        count++
+        strNum = newStrNum.toString().split('')
     }
+    return count
 }
-
-
-persistence(39) // 3
